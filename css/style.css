@@ -1,5 +1,5 @@
 * {
-    
+
     max-width: 100%;
 }
 
@@ -15,10 +15,12 @@ body {
     align-items: center;
     font-family: 'Jost', sans-serif;
 }
-.header-title-2{
+
+.header-title-2 {
     display: inline-flex;
     align-items: center;
 }
+
 .header-title h2 {
     font-size: 50px;
     font-weight: 800;
@@ -61,6 +63,7 @@ body {
     font-size: 35px;
     margin: 0px 10px 0px 0px;
 }
+
 .header-title-btn {
     display: flex;
 }
@@ -92,7 +95,8 @@ body {
     font-weight: 800;
     text-transform: uppercase;
 }
-.about{
+
+.about {
     font-family: 'Open Sans', sans-serif;
     padding: 60px 0px;
 }
@@ -118,18 +122,22 @@ body {
     bottom: 1px;
     left: calc(50% - 60px);
 }
-.about-border{
+
+.about-border {
     position: relative;
     top: -45px;
 }
-.about-icon p i{
+
+.about-icon p i {
     color: #47B6E8;
     margin: 0px 10px 0px 0px;
 }
+
 .about-icon p {
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
-.about-btn{
+
+.about-btn {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
@@ -142,67 +150,91 @@ margin-bottom: 5px;
     border: 2px solid #47b2e4;
     transition: background-color 0.5s, color 0.5s;
 }
-.about-btn:hover{
-background-color:#47b2e4 ;
-color: #fff;
+
+.about-btn:hover {
+    background-color: #47b2e4;
+    color: #fff;
 }
+
 /*+++++++ About section end ++++++++*/
 
-.faq-sec{
+.faq-sec {
     padding: 60px 0px;
     background-color: #F3F5FA;
 }
+
 .accordion-item {
     border: 0;
 }
-.accordion-margin{
+
+.accordion-margin {
     margin-bottom: 10px;
 }
-.faq-title{
+
+.faq-title {
     font-weight: 700;
 }
 
 /*+++++++ faq section end ++++++++*/
 
-.skill-padd{
+.skill-padd {
     padding: 60px 0px;
 }
-.skill-col-2 h2{
+
+.skill-col-2 h2 {
     font-weight: 700;
     color: #37517E;
 }
-.progress-title{
+
+.progress-title {
     display: flex;
     justify-content: space-between;
 }
-.progress-mar{
+
+.progress-mar {
     margin: -15px 0px 20px 0px;
 }
-.accordion-item{
+
+.accordion-item {
     border-radius: 0;
     border: none;
 }
-.accordion-item:first-of-type .accordion-button{
+
+.accordion-item:first-of-type .accordion-button {
     border-radius: none;
 }
-.accordion-button:not(.collapsed){
-    color:red ;
-    background-color: yellow ;
+
+.accordion-button:not(.collapsed) {
+    color: red;
+    background-color: yellow;
     box-shadow: none;
 }
+
 /*+++++++ skill section end ++++++++*/
-.service{
+.service {
     background-color: #F3F5FA;
 }
-.col-style{
+
+.col-style {
     background: white;
-    padding: 20px;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;
+    margin: 10px;
 }
-.col-style i{
+
+.col-style i {
     font-size: 30px;
     color: #47B2E4;
 }
-.col-style h4{
+
+.col-style h4 {
     font-size: 30px;
     color: #47B2E4;
+}
+
+.title p {
+    text-align: center;
+    padding-bottom: 20px;
 }
