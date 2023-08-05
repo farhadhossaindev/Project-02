@@ -93,7 +93,7 @@ body {
 .about h2 {
     text-align: center;
     color: #37517E;
-    padding: 60px 0px;
+    padding: 0px 0px 60px 0px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -218,7 +218,7 @@ body {
     background-color: #F3F5FA;
 }
 
-.shadow-icon{
+.shadow-icon {
     font-size: 30px;
     color: #47B2E4;
     margin-bottom: 10px;
@@ -235,16 +235,85 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
-.shadow{
+
+.shadow {
     background: #fff;
     padding: 50px 30px;
 }
-.shadow-icon i{
+
+.shadow-icon i {
     margin-bottom: 10px;
 }
 
-/*+++++++ service section end ++++++++*/
+/*+++++++ servicegit  section end ++++++++*/
+.call-img {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+}
 
+.call-btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+}
 
+.call-row {
+    align-items: center;
+}
 
+.call-btn-1 {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: bottom;
+    text-decoration: none;
+    transition: background-color 0.5s, border 0.5s;
+}
 
+.call-btn-1:hover {
+    background-color: #00A6EB;
+    border: #00A6EB;
+}
+
+.call-flex {
+    display: flex;
+    justify-content: end;
+}
+
+/*+++++++ all to action  section end ++++++++*/
+.nav-2 li {
+    margin: 10px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+}
+.nav-2 li:hover {
+    background: #47b2e4;
+    color: #fff;
+}
+.nav-2 li:active{
+    background: #47b2e4;
+    color: #fff;
+}
+.nav-2 {
+    display: flex;
+    justify-content: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*+++++++ protfolio  section end ++++++++*/
