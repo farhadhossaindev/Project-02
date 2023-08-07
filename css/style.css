@@ -244,6 +244,9 @@ background: #00A6EB;
     padding: 120px 0;
     color: #fff;
 }
+.call-img p{
+    color: #fff;
+}
 
 .call-btn {
     font-family: "Jost", sans-serif;
