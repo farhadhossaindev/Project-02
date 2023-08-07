@@ -64,6 +64,10 @@ body {
 .header-title-btn-02 i {
     font-size: 35px;
     margin: 0px 10px 0px 0px;
+    transition: 0.5s;
+}
+.header-title-btn-02:hover i{
+    color: #47b2e4;
 }
 
 .header-title-btn {
@@ -166,10 +170,6 @@ body {
     background-color: #F3F5FA;
 }
 
-.accordion-item {
-    border: 0;
-}
-
 .accordion-margin {
     margin-bottom: 10px;
 }
@@ -198,21 +198,12 @@ body {
     margin: -15px 0px 20px 0px;
 }
 
-.accordion-item {
-    border-radius: 0;
-    border: none;
+.accordion-item:first-of-type
+.accordion-item{
+border: none;
+border-radius: 0;
+background: #00A6EB;
 }
-
-.accordion-item:first-of-type .accordion-button {
-    border-radius: none;
-}
-
-.accordion-button:not(.collapsed) {
-    color: red;
-    background-color: yellow;
-    box-shadow: none;
-}
-
 
 /*+++++++ skill section end ++++++++*/
 .service {
@@ -485,4 +476,99 @@ p {
 }
 .buy-btn-2:hover{
 background-color: #008fcc;
+}
+/*+++ pricing  section end +++++*/
+.about-2 h2{
+    text-align: center;
+    color: #37517E;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+/*+++ FAQ-02 section end +++++*/
+.address i{
+    font-size: 20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.address:hover i{
+    background: #47b2e4;
+    color: #fff;
+}
+.address h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #37517e;
+}
+.address p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6182ba;
+}
+.maps{
+    border: 0;
+    width: 100%;
+    height: 290px;
+}
+.info{
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+.form-name label {
+    padding-bottom: 8px;
+}
+
+.form-name input{
+    width: 100%;
+    height: 44px;
+}
+.form-group textarea{
+    width: 100%;
+    height: 44px;
+    height: 200px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.btn button{
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.btn button:hover{
+    background: #014d70;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-padd{
+    padding: 42px 30px 42px 50px;
+}
+.form-name input:focus {
+border-color: #47b2e4;
+outline: 0;
+}
+.form-name textarea:focus {
+border-color: #47b2e4;
+outline: 0;
 }
